@@ -38,10 +38,10 @@ function Home() {
                 <div className="home-specialize">
                     <div className="home-specialize-title">We specialize in four core areas:</div>
                     <div className="home-specialize-buttons">
-                        <HashLink smooth to="/classes#business-and-financial-literacy" className="specialize-button">Business & Financial Literacy →</HashLink>
-                        <HashLink smooth to="/classes#mathematical-thinking" className="specialize-button">Mathematical Thinking →</HashLink>
-                        <HashLink smooth to="/classes#public-speaking-and-communication" className="specialize-button">Public Speaking & Communication →</HashLink>
-                        <HashLink smooth to="/classes#artistic-expression" className="specialize-button">Artistic Expression →</HashLink>
+                        <HashLink smooth to="/classes#business-and-financial-literacy" className="specialize-button">Business & <br /> Financial Literacy →</HashLink>
+                        <HashLink smooth to="/classes#mathematical-thinking" className="specialize-button">Mathematical  <br /> Thinking →</HashLink>
+                        <HashLink smooth to="/classes#public-speaking-and-communication" className="specialize-button">Public Speaking & <br /> Communication →</HashLink>
+                        <HashLink smooth to="/classes#artistic-expression" className="specialize-button">Artistic  <br />  Expression →</HashLink>
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer">
             <div className="footer-info">
                 <Link to="/" className="navbar-logo">
-                    <img src="/logo.JPG" alt="Beyond Young Academy Logo" className="logo-image" />
+                    <img src="/logo.png" alt="Beyond Young Academy Logo" className="logo-image" />
                 </Link>
                 <div className="footer-contactus">
                     <div>Contact Us:</div>

@@ -7,11 +7,11 @@ const Navbar = () => {
         <div className="navbar">
             <div className="navbar-logo">
                 <Link to="/" className="navbar-logo-photo">
-                    <img src="/logo.JPG" alt="Beyond Young Academy Logo" className="logo-image" />
+                    <img src="/logo.png" alt="Beyond Young Academy Logo" className="logo-image" />
                 </Link>
-                <div className="navbar-logo-name">
+                {/* <div className="navbar-logo-name">
                     Beyond Young Academy
-                </div>
+                </div> */}
             </div>
             <div className="navbar-buttons">
 
