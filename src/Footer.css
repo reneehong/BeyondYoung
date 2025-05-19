@@ -1,0 +1,22 @@
+.footer {
+
+    justify-content: space-between;
+    padding-top: 5vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    background-color: var(--yellow);
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15vh;
+}
+
+.footer-contactus {
+    text-align: left;
+}
+
+.footer-copyright {
+    padding-bottom: 5vh;
+}

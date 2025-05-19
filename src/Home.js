@@ -1,0 +1,74 @@
+import React from "react";
+import "./Home.css";
+import coverImage from "./cover.png";
+import { Link } from "react-router-dom";
+import classesImage from "./homeclass.png";
+import HomeProgramCard from "./HomeProgramCard";
+import { HashLink } from 'react-router-hash-link';
+function Home() {
+
+    return (
+        <div className="home">
+            <div className="home-homebanner">
+
+            </div>
+            <img src={coverImage} alt="Welcome to Beyond Young Academy" />
+            <div className="home-mission">
+                <h1 className="home-mission-title">
+                    Welcome to
+                    Beyond Young Academy
+                </h1>
+                <h1 className="home-mission-subtitle">
+                    Empowering Future-Ready Learners<br />
+                    with Heart, Purpose, and Possibility
+                </h1>
+                <HashLink smooth to="/ourmission#title" className="home-mission-button">
+                    Our Mission →
+                </HashLink>
+            </div>
+            <div className="home-classes">
+                <div className="home-about">
+                    <div className="home-about-words">
+                        <h2>About Our Classes</h2>
+                        <p><em><strong>Through hands-on projects, real-world challenges, and value-driven learning,</strong> we help students not only gain knowledge, but also discover purpose, voice, and courage.</em></p>
+                        <p><em>Our classrooms are alive with curiosity and collaboration. We nurture not just students, but <strong>future leaders</strong>—children who think independently, express themselves boldly, and grow with empathy and resilience.</em></p>
+                    </div>
+                    <img src={classesImage} alt="Image of Class" className="home-about-image" />
+                </div>
+                <div className="home-specialize">
+                    <div className="home-specialize-title">We specialize in four core areas:</div>
+                    <div className="home-specialize-buttons">
+                        <HashLink smooth to="/classes#business-and-financial-literacy" className="specialize-button">Business & Financial Literacy →</HashLink>
+                        <HashLink smooth to="/classes#mathematical-thinking" className="specialize-button">Mathematical Thinking →</HashLink>
+                        <HashLink smooth to="/classes#public-speaking-and-communication" className="specialize-button">Public Speaking & Communication →</HashLink>
+                        <HashLink smooth to="/classes#artistic-expression" className="specialize-button">Artistic Expression →</HashLink>
+                    </div>
+                </div>
+            </div>
+            <div className="home-programs">
+                <h2 className="home-programs-title">We also offer:</h2>
+                <div className="home-programs-cards">
+                    <HomeProgramCard
+                        title="Competition Prep"
+                        description="designed for students ready to take their skills to the next level through academic and enrichment competitions. Whether it’s business, math, public speaking, or interdisciplinary challenges, we provide the tools, coaching, and mindset to compete with purpose - and grow through the process."
+                        link="/programs#competition-prep"
+                    />
+                    <HomeProgramCard
+                        title="Summer Camp"
+                        description="designed for curious, creative, and motivated students who want more than just fun in the sun. Through hands-on activities, real-world projects, and confidence-building challenges, campers explore key skills in business & financial literacy, mathematical thinking, public speaking, and creative expression — all in an engaging, supportive environment."
+                        link="/programs#summer-camp"
+                    />
+                    <HomeProgramCard
+                        title="Day Camp"
+                        description="At Beyond Young Day Camp, every day is a chance to learn, create, and grow — in a space designed to spark joy, confidence, and curiosity. Our weekday morning program blends enrichment learning with imaginative play, helping children build real-world skills while having real fun."
+                        link="/programs#day-camp"
+                    />
+                </div>
+            </div>
+
+        </div >
+
+
+    );
+}
+export default Home;

@@ -1,0 +1,12 @@
+.programs {
+    background-color: var(--yellow);
+    padding: 6vh 5vw;
+}
+
+.programs-title {
+    font-size: 3.2vh;
+    font-weight: 700;
+    color: black;
+    text-align: left;
+    margin-bottom: 5vh;
+}

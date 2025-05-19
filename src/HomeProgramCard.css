@@ -1,0 +1,45 @@
+.home-program-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 4vh 3vw;
+    max-width: 20vw;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.home-program-card:hover {
+    transform: translateY(-4px);
+}
+
+.home-program-card-title {
+    font-size: 2.2vh;
+    font-weight: bold;
+    margin-bottom: 2vh;
+    color: #111;
+}
+
+.home-program-card-description {
+    font-size: 1.6vh;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 3vh;
+}
+
+.home-program-card-button {
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    padding: 1vh 1.5vw;
+    border-radius: 6px;
+    font-size: 1.5vh;
+    align-self: flex-start;
+    transition: background-color 0.3s ease;
+}
+
+.home-program-card-button:hover {
+    background-color: #000;
+}

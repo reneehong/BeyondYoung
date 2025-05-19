@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    align-items: center;
+    padding-left: 4vw;
+    padding-right: 2vw;
+    background-color: var(--yellow);
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    /* <-- centers image and text vertically */
+}
+
+.navbar-logo-name {
+    padding-left: 1vw;
+    font-weight: bold;
+    /* <-- makes text bold */
+    display: flex;
+    align-items: center;
+    /* <-- optional but ensures vertical centering */
+}
+
+.navbar-buttons {
+    display: flex;
+    gap: 2vw;
+}
+
+.navbar-buttons a {
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    padding: 0.5vh 1vw;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-buttons a:hover {
+    background-color: var(--green);
+    color: white;
+    cursor: pointer;
+}
+
+.logo-image {
+    height: 6vh;
+}

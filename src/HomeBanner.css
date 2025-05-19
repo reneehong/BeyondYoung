@@ -1,0 +1,21 @@
+.homebanner {
+    height: 4vh;
+    color: white;
+    background-color: var(--green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    font-size: 1.75vh;
+}
+
+.homebanner:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
