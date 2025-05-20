@@ -1,18 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Home.css";
+import { HashLink } from 'react-router-hash-link';
+import posterImage from "./poster.png";
 import coverImage from "./cover.png";
-import { Link } from "react-router-dom";
 import classesImage from "./homeclass.png";
 import HomeProgramCard from "./HomeProgramCard";
-import { HashLink } from 'react-router-hash-link';
+
 function Home() {
+    const images = [coverImage, posterImage];
+    const [currentImage, setCurrentImage] = useState(0);
+
+
+    const goToPrevious = () => {
+        setCurrentImage((prev) => (prev - 1 + images.length) % images.length);
+    };
+
+    const goToNext = () => {
+        setCurrentImage((prev) => (prev + 1) % images.length);
+    };
 
     return (
         <div className="home">
             <div className="home-homebanner">
-
+                <img
+                    src={images[currentImage]}
+                    alt="Welcome to Beyond Young Academy"
+                    className="home-slideshow-image"
+                />
+                <button className="arrow left-arrow" onClick={goToPrevious}>
+                    ❮
+                </button>
+                <button className="arrow right-arrow" onClick={goToNext}>
+                    ❯
+                </button>
             </div>
-            <img src={coverImage} alt="Welcome to Beyond Young Academy" />
+
+
+
             <div className="home-mission">
                 <h1 className="home-mission-title">
                     Welcome to
@@ -65,10 +89,8 @@ function Home() {
                     />
                 </div>
             </div>
-
-        </div >
-
-
+        </div>
     );
 }
+
 export default Home;

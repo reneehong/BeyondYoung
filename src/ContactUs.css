@@ -58,3 +58,11 @@
 .icons i {
     font-size: 1.5rem;
 }
+
+@media (max-width: 768px) {
+    .contact-info {
+        flex-direction: column;
+    }
+
+
+}
