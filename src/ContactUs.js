@@ -29,19 +29,50 @@ function ContactUs() {
 
     return (
         <div className="contact-page">
-            <h1 className="contact-header">We’d Love to Hear from You –<br />Connect with Us Today!</h1>
-            <div className="contact-info">
-                <p><strong>Email:</strong> beyondyoungnj@gmail.com</p>
-                <p><strong>Phone Number:</strong> 917-886-6970</p>
-                <p><strong>Address:</strong> 374 Millburn Avenue, Millburn, 07078</p>
-                <p><strong>Follow us on:</strong>
-                    <span className="icons">
-                        <i className="fab fa-instagram"></i>
-                        <i className="fab fa-linkedin"></i>
-                    </span>
-                </p>
-            </div>
             <div id="map" className="contact-map"></div>
+            <div className="contact-content">
+                <h1 className="contact-header">We’d Love to Hear from You –<br />Connect with Us Today!</h1>
+                <div className="contact-info">
+                    <div className="contact-links">
+                        <p><strong>Send us a message:</strong> form</p>
+
+                        <p>
+                            <strong>Email:</strong>
+                            <a href="mailto:beyondyoungnj@gmail.com"> beyondyoungnj@gmail.com</a>
+                        </p>
+
+                        <p>
+                            <strong>Phone Number:</strong>
+                            <a href="tel:9178866970"> 917-886-6970</a>
+                        </p>
+
+                        <p>
+                            <strong>Address:</strong>
+                            <a
+                                href="https://www.google.com/maps/search/?api=1&query=374+Millburn+Avenue,+Millburn,+NJ+07078"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                374 Millburn Avenue, Millburn, 07078
+                            </a>
+                        </p>
+                    </div>
+
+                    <div className="contact-social">
+                        <p><strong>Follow us on:</strong></p>
+                        <div className="icons">
+                            <a href="https://www.instagram.com/beyondyoungnj/" target="_blank" rel="noopener noreferrer">
+                                <i className="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/beyond-young-nj/" target="_blank" rel="noopener noreferrer">
+                                <i className="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
 
 
 

@@ -4,9 +4,17 @@
 }
 
 .programs-title {
-    font-size: 3.2vh;
-    font-weight: 700;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    font-weight: 600;
     color: black;
     text-align: left;
     margin-bottom: 5vh;
+}
+
+.programs-cards {
+    padding-left: 5vw;
+    padding-right: 5vw;
 }

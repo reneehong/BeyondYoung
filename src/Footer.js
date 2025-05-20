@@ -11,12 +11,32 @@ const Footer = () => {
                 </Link>
                 <div className="footer-contactus">
                     <div>Contact Us:</div>
-                    <div>Address: 374 Milburn Avenue, Milburn, NJ 07079</div>
-                    <div>Email: beyondyoungnj@gmail.com</div>
+
+
+                    <p>
+                        Email:
+                        <a href="mailto:beyondyoungnj@gmail.com"> beyondyoungnj@gmail.com</a>
+                    </p>
+
+                    <p>
+                        Phone Number:
+                        <a href="tel:9178866970"> 917-886-6970</a>
+                    </p>
+
+                    <p>
+                        Address:
+                        <a
+                            href="https://www.google.com/maps/search/?api=1&query=374+Millburn+Avenue,+Millburn,+NJ+07078"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            374 Millburn Avenue, Millburn, 07078
+                        </a>
+                    </p>
                 </div>
             </div>
             <div className="footer-copyright">
-                Copyright 2025 Beyond Young
+                Copyright &copy; 2025 Beyond Young
             </div>
 
         </div>

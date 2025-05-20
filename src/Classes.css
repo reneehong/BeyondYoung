@@ -4,9 +4,12 @@
 }
 
 .classes-title {
-    font-size: 3.2vh;
-    font-weight: 700;
-    color: #111;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    font-weight: 600;
+    color: black;
     text-align: left;
     margin-bottom: 5vh;
 }

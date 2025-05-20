@@ -1,12 +1,12 @@
 .program-card {
-    background-color: #fff;
+    background-color: white;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     max-width: 768px;
     margin: 4vh auto;
-    font-family: 'Segoe UI', sans-serif;
-    margin-top: 20vh;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
 }
 
 .program-card-image {
