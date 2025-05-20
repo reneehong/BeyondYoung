@@ -9,9 +9,7 @@ const Navbar = () => {
                 <Link to="/" className="navbar-logo-photo">
                     <img src="/logo.png" alt="Beyond Young Academy Logo" className="logo-image" />
                 </Link>
-                {/* <div className="navbar-logo-name">
-                    Beyond Young Academy
-                </div> */}
+
             </div>
             <div className="navbar-buttons">
 

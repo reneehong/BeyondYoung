@@ -5,11 +5,10 @@ import missionImage from "./mission.png";
 function OurMission() {
     return (
         <div className="mission-page">
-            <h1 className="mission-header" id="title">Beyond Young Academy</h1>
-            <h2 className="mission-subheader">Our Mission</h2>
+            <h1 className="mission-header" id="title">Our Mission</h1>
 
             <blockquote className="mission-quote">
-                “We empower children to think <strong>independently</strong>, speak <strong>confidently</strong>, and grow <strong>with purpose</strong>.”
+                “We empower children to <br></br>think <strong>independently</strong>, speak <br></br> <strong>confidently</strong>, and grow <strong> <br></br>with purpose</strong>.”
             </blockquote>
 
             <p className="mission-paragraph">
@@ -18,13 +17,13 @@ function OurMission() {
             </p>
 
             <blockquote className="mission-quote">
-                “Not just <strong>academic success</strong> — but <strong>lifelong skills, values, and vision</strong>.”
+                “Not just <strong>academic <br></br> success</strong> — but <strong>lifelong <br></br> skills, values, and vision</strong>.”
             </blockquote>
 
             <div className="mission-bottom">
                 <div className="mission-text">
-                    <p>At Beyond Young, we don’t just <strong>teach</strong>.</p>
-                    <p>We <strong>grow</strong> with tomorrow’s leaders.</p>
+                    <p>At Beyond <br></br>Young, we don’t <br></br>just <strong>teach</strong>.</p><br></br><br></br>
+                    <p>We <strong>grow</strong> with <br></br>tomorrow’s <br></br>leaders.</p>
                 </div>
                 <img src={missionImage} alt="National Leadership Conference" className="mission-img" />
             </div>

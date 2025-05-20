@@ -10,12 +10,15 @@ import Careers from "./Careers";
 import Programs from "./Programs";
 import ContactUs from "./ContactUs";
 import HomeBanner from "./HomeBanner.js";
-function App() {
+import { useLocation } from "react-router-dom";
 
+function App() {
+  const location = useLocation();
+  const hideBanner = location.pathname === "/careers";
   return (
     <div className="App">
       <NavBar />
-      <HomeBanner />
+      {!hideBanner && <HomeBanner />}
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -29,19 +32,6 @@ function App() {
     </div>
 
   );
-  // return (
-  //   <BrowserRouter>
-  //     <div className="App">
-  //       <NavBar />
-  //       <Routes>
-  //         <Route path="/" element={<HomePage />} />
-  //         {/* Add other routes here, like: 
-  //             <Route path="/classes" element={<ClassesPage />} />
-  //         */}
-  //       </Routes>
-  //     </div>
-  //   </BrowserRouter>
-  // );
 }
 
 export default App;

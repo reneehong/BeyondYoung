@@ -34,7 +34,8 @@ function ContactUs() {
                 <h1 className="contact-header">We’d Love to Hear from You –<br />Connect with Us Today!</h1>
                 <div className="contact-info">
                     <div className="contact-links">
-                        <p><strong>Send us a message:</strong> form</p>
+                        <p><strong>Send us a message:</strong>
+                            <a href="https://forms.gle/7Cxju9GUh3p6XvEo8"> https://forms.gle/7Cxju9GUh3p6XvEo8</a></p>
 
                         <p>
                             <strong>Email:</strong>
